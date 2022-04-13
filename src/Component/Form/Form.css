@@ -1,0 +1,97 @@
+.contains {
+    padding-top: 100px;
+    width: 800px;
+    height: 420px;
+    margin-left: 350px;
+}
+
+/* 
+    errmsg offscreen
+        both are for errmsg css
+*/
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+div.info {
+    background-color: rgb(71, 167, 231);
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height : 420px;
+    width: 400px;
+}
+
+#signin, #signup {
+    background-color: white;
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 400px;
+    height: 420px;
+    border-style: solid;
+    border-color: rgb(71, 167, 231);
+}
+
+.sign_form {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.sign_text {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.fname, .pass {
+    padding: 5px;
+    width : 140px;
+    border-radius: 5px;
+}
+
+.usermail, .userpass {
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.usermail {
+    width:100%;
+}
+
+#accbtn {
+    border-radius: 2px;
+    border-color: white;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+#registerbtn, #loginbtn {
+    background-color: rgb(71, 167, 231);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color : white;
+    font-weight: bold;
+    border-color: rgb(71, 167, 231);
+    border-radius: 2px;
+}
+
+b {
+    text-decoration: none;
+}

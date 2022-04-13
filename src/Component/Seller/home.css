@@ -1,0 +1,85 @@
+:root {
+    --bgcolor: #f1f5fd;
+    --primary-color: #6f5de7;
+    --text-color: #828286;
+    --main-text-color: #333333;
+}
+
+/*------- Header Starts-------*/
+
+header {
+    background-color: var(--bgcolor);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    width: 100%;
+}
+
+.main-hero-container {
+    display: flex;
+}
+
+.main-hero-container h1 {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.rowInfo {
+    padding-bottom: 20%;
+}
+
+.main-hero-para {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin: 2rem 0 5rem 0;
+    font-weight: lighter;
+    width: 75%;
+    font-size: 1.5rem;
+}
+
+.main-hero-container h3 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.input-group {
+    position: relative !important;
+}
+
+.form-control-text {
+    position: absolute;
+    height: 2.5rem;
+    border: none;
+    outline-style: none;
+    padding-left: 1.2rem !important;
+    font-size: 1rem;
+    align-items: center;
+
+}
+
+.input-group-button {
+    position: absolute;
+    right: 25.5%;
+    top: 2px;
+    bottom: 1px;
+    color: #fff;
+    background-color: var(--primary-color);
+    height: 2.2rem;
+    width: 22%;
+    border-radius: 2rem !important;
+    border: 1px solid var(--primary-color);
+    transition: .3s;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group-button:hover {
+    background-color: var(--bgcolor);
+    color: var(--primary-color);
+    box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+/*------- Header Ends -------*/

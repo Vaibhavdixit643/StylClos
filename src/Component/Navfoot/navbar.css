@@ -1,0 +1,127 @@
+:root {
+    --bgcolor: #f1f5fd;
+    --primary-color: #6f5de7;
+    --text-color: #828286;
+    --main-text-color: #333333;
+}
+
+/*-------NAVBAR CSS STYLE STARTS--------*/
+.navbar-bg {
+    background-color: var(--bgcolor);
+    padding: 0.1rem 0;
+    z-index: 99;
+    position: relative;
+}
+
+.form-control1 {
+    position: relative;
+    height: 2.5rem;
+    width: 25rem;
+    border: none;
+    outline-style: none;
+    font-size: 1rem;
+    border-radius: 2rem;
+
+}
+
+.fa-search {
+    position: relative;
+    padding: 4px;
+    color: rgb(197, 197, 197);
+    border-radius: 2rem;
+    background-color: #fff;
+    transition: .3s ease-in-out;
+}
+
+.fa-search:hover {
+    color: black;
+}
+
+.btn-outline {
+    position: relative;
+    right: 12%;
+    top: 2px;
+    height: 2.2rem;
+    width: 10%;
+    border-radius: 2rem;
+    text-align: center;
+    display: grid;
+    place-items: center;
+
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar li {
+    padding: 0 1rem;
+}
+
+.navbar li {
+    font-size: 1rem;
+    font-weight: lighter;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+
+.navbar li:hover {
+    color: var(--primary-color) !important;
+    text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+    font-weight: bold;
+}
+
+.btn-style {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: 0.1rem solid var(--primary-color);
+    color: #fff;
+    background-color: var(--primary-color);
+    text-transform: capitalize;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.cartNumber {
+    top: -100px;
+}
+
+.cart-btn {
+    background-color: transparent;
+    border: none;
+    color: var(--primary-color);
+    transition: .3s ease-in-out;
+}
+
+.cart-btn:hover {
+    color: orange;
+}
+
+.btn-style:first-child {
+    margin-top: 0.2rem;
+}
+
+.btn-style:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border {
+    border: 0.1rem solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    text-transform: capitalize;
+
+}
